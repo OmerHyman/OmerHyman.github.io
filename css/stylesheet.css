@@ -1,0 +1,210 @@
+body {
+    font-family: sans-serif;
+    background-color: #5CDB95;
+
+}
+navContainer{
+    background-color: #b3b3b3;
+    padding-left: 8px;
+}
+
+.burger {
+    font-size: 30px;
+    cursor: pointer;
+    position: fixed;
+}
+
+.hideNav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #05386B;
+    overflow: auto;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+
+@media screen and (min-width: 992px){
+    .btnClose {
+        display: none!important;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hideNav{
+        width:100%;
+        opacity: 0.9;
+        display:none;
+    }
+}
+
+.openNav {
+    transition: 3s;
+}
+
+.hideNav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size:25px;
+    color: #EDF5E1;
+    display:block;
+}
+
+.hideNav a:hover{
+    color: #5CDB95;
+}
+
+.hideNav .btnClose{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+@media screen and (max-height: 450px) {
+    .hideNav {padding-top: 15px;}
+    .hideNav a {font-size: 18px;}
+}
+
+article{
+    margin-left: 22%;
+    color: #edf5e1;
+}
+
+article{
+    color: #05386B;
+}
+
+.subjectBox{
+    border: 3px solid black;
+    margin-right: 22%;
+    background-color: #05386B;
+}
+
+.subjectBox h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+}
+
+.subjectBox p{
+    margin-top: 0px;
+    padding-left: 10px;
+}
+
+.subjectBox a {
+    text-decoration: none;
+    color: #5CDB95;
+}
+
+.subjectBox:hover{
+    border: 3px solid #EDF5E1;
+}
+
+.subjectBox:hover a{
+    color: #EDF5E1;
+}
+
+footer{
+    background-color: black;
+    margin-top: 7%;
+}
+
+footer a{
+    text-decoration: none;
+    color: #EDF5E1;
+    display: block;
+    width: 100%;
+}
+
+footer li:first-child{
+    padding-top:1%;
+}
+
+footer li{
+    list-style-type: none;
+    text-align: center;
+    padding-bottom: 1%;
+    padding-top: 1%;
+}
+
+footer li:hover{
+    background-color: #05386B;
+}
+
+footer a:hover{
+    color: #EDF5E1;
+    text-decoration: none;
+}
+
+footer ul{
+    padding-left: 0px;
+    margin-bottom: 0px;
+    margin-left: 20%;
+}
+
+.carousel{
+    width:50%;
+    padding-top: 3%;
+    padding-bottom:3%;
+    /*width: 600px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    */
+    margin-left: 9%;
+}
+
+.content{
+    padding-right: 100px;
+    color: black ;
+    font-size: 120%;
+}
+
+.video{
+    padding-left: 18%;
+}
+
+table#instrument{
+    border: 3px solid black;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}

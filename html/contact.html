@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href= "../css/stylesheet.css">
+        <title>Get in contact</title>
+    </head>
+    <body>
+        <div id="navContainer">
+            <span class="burger" onclick="openNav()">&#9776;</span>
+            <nav id="sideMenu" class="hideNav">
+                <a href="#" class="btnClose" onclick="closeNav()">&times;</a>
+                <a href="index.html"> Home</a>
+                <a href="celtic.html">Celtic rock</a>
+                <a href="gamelan.html">Gamelan music</a>
+                <a href="african.html">African music</a>
+                <a href="caribbean.html">Caribbean music</a>
+                <a href="indian.html">Indian music</a>
+                <a href="instrument.html">Musical instruments</a>
+            </nav>
+        </div>
+        <article>
+            <h3> Get in contact:</h3>
+    		<ul>
+                <div class="container">
+                    <form action="/action_page.php">
+
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Type in your full name..">
+
+                        <label for="email">Email Address</label>
+                        <input type="text" id="email" name="email" placeholder="Type in your email adress...">
+
+                        <label for="subject">Get in contact </label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+
+                    </form>
+                </div>
+    		</ul>
+        </article>
+        <footer>
+            <ul>
+                <li> <a href="#">Home</a> </li>
+                <li> <a href="#">Contact us</a> </li>
+            </ul>
+        </footer>
+        <script src="../js/nav.js"></script>
+    </body>
+</html>
